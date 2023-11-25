@@ -46,6 +46,7 @@ window.addEventListener("resize", () => {
         img.setAttribute("src", "./images/bg-pattern-how-we-work-desktop.svg");
     }
 });
+// Change the footer Img
 let footerImg = document.getElementById("footer-img");
 if (window.innerWidth < 767) {
     footerImg.removeAttribute("src");
@@ -65,4 +66,3 @@ window.addEventListener("resize", () => {
         footerImg.setAttribute("src", "./images/bg-pattern-footer-desktop.svg");
     }
 });
-//
